@@ -1,0 +1,35 @@
+<html>
+   <head>
+       <meta charset="UFT-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <link rel="stylesheet" href="login.css/login.css"/>
+       <title>Login</title>
+   </head>
+   <body>
+        <div class="login-inicio">
+         <div class="login-meio">
+            <h1>Faça já seu login!<br></h1>
+            <a href="Dashboard/Dashboard.html">Conheça nossa Plataforma</a>
+            <h2>E se junte a família NAAP<br></h2>
+            <img src="img/logo.svg" class="login-img" alt="NAAP">
+         </div>
+
+         <div class="login-fim"></div>
+          <div class="login-do-login">
+              <h1>Login</h1>
+              <div class="textos">
+                  <label for="usuario">Usuário</label>
+                  <input type="text"name-"usuario" placeholder="Usuário" id="email" onchange="validatefields()">
+                  <div class="erro">email é obrigatório</div>
+              </div>
+              <div class="textos">
+                <label for="senha">Senha</label>
+                <input type="password"name-"senha" id="password" placeholder="Senha">
+                <div class="erro">senha é obrigatória</div>
+              </div>
+             <button class="login-final" id="login-button">Login</button>
+          </div>
+       </div>
+   </body>
+   <script src="Login/Javascript.js"></script>
+</html>   
